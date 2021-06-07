@@ -21,7 +21,10 @@
     #
     matrix = vectorizer.fit_transform(df1['Description'])
     print(matrix.toarray().shape)
-    display(matrix.toarray())
+    #
+    df_matrix = pd.DataFrame(matrix)
+    display(df_matrix)
+    display(matrix.toarray()) # or convert to Pandas dataframe if the numpy array could not be displayed
     #
     
     #
@@ -30,7 +33,7 @@
 
 
 
-
+# Get Similarity (cosine similarity) Score:
 
 
 
