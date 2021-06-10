@@ -26,6 +26,7 @@
     display(df_matrix)
     display(matrix.toarray()) # or convert to Pandas dataframe if the numpy array could not be displayed
     #
+    df_vector = pd.DataFrame(matrix.toarray())
     
     #
 # N-Grams Model:
