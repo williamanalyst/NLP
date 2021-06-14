@@ -3,7 +3,9 @@
 # Natural Language Processing:
 ###############################################################################################
 # Natural language processing refers to the technique that allows computer to understand, analyze, manipulate, and potentially generate human language.
-
+#
+# Application of NLP:
+    # 
 
 
 import nltk
